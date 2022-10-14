@@ -4,7 +4,7 @@
 /* main - check n for positive or negative
  * Description: check numbers.
  * Return: 0
- */
+*/
 
 int main(void)
 
