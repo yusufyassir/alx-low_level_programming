@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main print sizes
+ * main - prints charcaters sizes
  * Description: use sizeof
  * Return: 0
  */
