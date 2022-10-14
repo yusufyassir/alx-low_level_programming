@@ -3,7 +3,7 @@
 /**
  * main print sizes
  * Description: use sizeof
- * return: 0
+ * Return: 0
  */
 
 int main(void)
