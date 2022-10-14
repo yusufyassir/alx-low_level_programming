@@ -1,6 +1,6 @@
 #include <stdio.h>
  /**
-  * main - Entry point
+  * main - print a string
   * Description: use ptintf
   * return 0
   */
