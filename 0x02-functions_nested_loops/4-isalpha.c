@@ -1,19 +1,21 @@
 #include "main.h"
 /**
- * _islower - check for lower case letters
+ * _isalpha - check for lower case letters
  * @c: the value recived
  * Return:0
  */
 int _isalpha(int c)
 {
-	int i = 'a';
-
-	for (i = 'a'; i <= 'Z'; i++)
+	if (c >= 'a' && c <= 'z')
 	{
-		if (c == i)
-		{
-			return (1);
-		}
+		return (1);
 	}
-	return (0);
+	else if (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
