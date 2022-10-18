@@ -4,7 +4,7 @@
  * Description: prints alphabet
  * Return: 0
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char letter = 'a'
 
@@ -13,5 +13,5 @@ void print_alphabet(void);
 		_putchar(letter);
 		letter++;
 	}
-	_putchar('/n');
+	_putchar('\n');
 }
