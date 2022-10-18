@@ -4,11 +4,11 @@
  * @c: the value recived
  * Return:0
  */
-int _islower(int c)
+int _isalpha(int c)
 {
 	int i = 'a';
 
-	for (i = 'a'; i <= 'z'; i++)
+	for (i = 'a'; i <= 'Z'; i++)
 	{
 		if (c == i)
 		{
