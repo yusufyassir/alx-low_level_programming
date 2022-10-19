@@ -1,4 +1,4 @@
-#include "maiin.h"
+#include "main.h"
 /**
  * jack_bauer - prits all the miutes in a day
  * Returns: o
@@ -26,7 +26,7 @@ void jack_bauer(void)
 				{
 					_putchar(hours_tens);
 					_putchar(hours_ones);
-					_putchar(":");
+					_putchar(':');
 					_putchar(minutes_tens);
 					_putchar(minutes_ones);
 					_putchar('\n');
