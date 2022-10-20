@@ -4,7 +4,7 @@
  * @a: first unt
  * @b: secont int
  * @c: third int
- * Return: largest int
+ * Return: largest intger
  */
 
 int largest_number(int a, int b, int c)
