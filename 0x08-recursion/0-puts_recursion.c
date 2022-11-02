@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _puts_recursion - a function that prints stings
+ * @s: the string
  * Return: 0
  */
 void _puts_recursion(char *s)
