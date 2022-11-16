@@ -1,4 +1,4 @@
-#include "function_pointer.h"
+#include "function_pointers.h"
 /**
  * array_iterator - our func
  * @size: array size
@@ -9,7 +9,8 @@ void array_iterator(int *array, size_t size, void (*action)(int))
 {
 	if (array == NULL || action == NULL)
 		return;
-	while (sizee-- > 0)
+
+	while (size-- > 0)
 	{
 		action(*array);
 		array++;
